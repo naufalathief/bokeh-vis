@@ -1,5 +1,0 @@
-Link Heroku:
-https://heroku-visdat-finalproject.herokuapp.com/app
-
-Link Presentasi:
-https://drive.google.com/file/d/1GUaoWath0huefLbLhRYA2yEU8NYQTzqQ/view?usp=sharing

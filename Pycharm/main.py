@@ -11,11 +11,11 @@ import locale
 locale.setlocale(locale.LC_ALL)
 # import data
 df_confirmed = pd.read_csv(
-    join(dirname(__file__), 'data', 'confirmed.csv'), parse_dates=['date'])
-df_death = pd.read_csv(join(dirname(__file__), 'data',
+    join(dirname(__file__), '../../Downloads/Naufal/Git/bokeh-vis/data', 'confirmed.csv'), parse_dates=['date'])
+df_death = pd.read_csv(join(dirname(__file__), '../../Downloads/Naufal/Git/bokeh-vis/data',
                             'death.csv'), parse_dates=['date'])
 df_recovered = pd.read_csv(
-    join(dirname(__file__), 'data', 'recovered.csv'), parse_dates=['date'])
+    join(dirname(__file__), '../../Downloads/Naufal/Git/bokeh-vis/data', 'recovered.csv'), parse_dates=['date'])
 
 df_confirmed.drop("Unnamed: 0", axis=1, inplace=True)
 df_death.drop("Unnamed: 0", axis=1, inplace=True)
